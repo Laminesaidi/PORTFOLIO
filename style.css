@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+ul {
+    list-style: none;
+}
+
+.taille {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 60px;
+    
+
+}
+
+.liens a {
+    text-decoration: none;
+    
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    color: grey;
+    background-color: black;
+    border: solid grey ;
+    transition: 1s ease;
+}
+.liens a:hover {
+    color: black;
+    border: solid black;
+    background-color:grey;
+    border-radius: 8px;
+  }
+  .align-center{
+    align-items: center;
+  }
+  .between {
+    justify-content: space-between;
+  }
+
+  
+
+.liens {
+    justify-content: center;
+    gap: 20px;
+    transition: 1s ease;
+}
+
+
+
+header {
+    text-align: center;
+    background-image: url("https://salon-du-numerique.fr/wp-content/uploads/2021/01/les-nouveaux-metiers-du-numerique.jpg");
+}
+
+header li {
+    list-style-type: none;
+}
+
+header ul {
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+header {
+    padding: 10px 30px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.stl {
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+    
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 25px;
+}
+.stl p {
+    text-align: center; 
+}
+.stl nav{
+    text-align: center;
+}
+.logol {
+    width: 40px;
+    height: 40px;
+}
+.contact {
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 70px;
+    padding: 5px;
+    border-radius: 20px;
+    color: black;
+    background-color: aquamarine;
+    border: solid black ;
+    transition: 1s ease;
+} 
+.medium {
+width: 70%;
+margin-top: 60px;
+}
+.wave {
+    
+    width: 50%;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+.moi {
+    margin: auto;
+    width: 70%;
+    
+}
+.talla {
+    width: 300px;
+}
+.pix {
+font-size: 15px;
+}
+.tallas {
+    width: 25%;
+}
+.orga {
+    width: 80%;
+    background-color: aquamarine;
+}
