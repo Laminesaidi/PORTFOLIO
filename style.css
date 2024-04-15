@@ -29,15 +29,15 @@ ul {
     margin-top: 30px;
     padding: 5px;
     border-radius: 20px;
-    color: grey;
-    background-color: black;
-    border: solid grey ;
+    color: #ACE2E1;
+    background-color: #102C57;
+    border: solid #ACE2E1 ;
     transition: 1s ease;
 }
 .liens a:hover {
-    color: black;
-    border: solid black;
-    background-color:grey;
+    color: #102C57;
+    border: solid #102C57;
+    background-color:#ACE2E1;
     border-radius: 8px;
   }
   .align-center{
@@ -89,6 +89,16 @@ h2 {
     font-size: 40px;
     text-align: center;
     margin-bottom: 30px;
+    
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+h4{
+    margin-bottom: 20px;
 }
 p{
     font-size: 25px;
@@ -108,13 +118,19 @@ p{
     font-weight: bold;
     margin-top: 30px;
     margin-left: 70px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 20px;
-    color: black;
-    background-color: aquamarine;
-    border: solid black ;
+    color: #102C57;
+    background-color: #ACE2E1 ;
+    border: solid #102C57 ;
     transition: 1s ease;
-} 
+}
+.contact:hover {
+    color:#ACE2E1 ;
+    border: solid #ACE2E1;
+    background-color: #102C57;
+    border-radius: 20px;
+  } 
 .medium {
 width: 70%;
 margin-top: 60px;
@@ -123,7 +139,7 @@ margin-top: 60px;
     
     width: 50%;
     margin-top: 100px;
-    margin-right: 50px;
+    
 }
 .moi {
     margin: auto;
@@ -131,15 +147,37 @@ margin-top: 60px;
     
 }
 .talla {
-    width: 300px;
+    width: 400px;
 }
 .pix {
 font-size: 15px;
 }
 .tallas {
-    width: 25%;
+    width: 40%;
+    margin-left: 50px;
 }
 .orga {
-    width: 80%;
-    background-color: aquamarine;
+    margin: auto;
+    
+}
+.marge {
+    margin-left: 60px;
+}
+.margep {
+    margin-right: 60px ;
+}
+.hp {
+    width: 400px;
+    margin-top: 50px;
+   
+}
+
+.hpl {
+    margin-left: 60px;
+}
+.hpr {
+    margin-right: 60px;
+}
+.backgroun {
+    background-color: #B7C9F2;
 }
